@@ -29,6 +29,18 @@ const handleUserInput = function () {  // Assigns actions to the user input
       case "d": 
         connection.write("Move: right");
         break;
+      case "z":
+        connection.write("Say: So spicy");
+        break;
+      case "x":
+        connection.write("Say: Get the rat!");
+        break;
+      case "c":
+        connection.write("Say: psst!");
+        break;
+      case "v":
+        connection.write("Say: See Ya!");
+        break;
       default: break; // seems to have a run each key in successive increments after the previous
     }
   });
