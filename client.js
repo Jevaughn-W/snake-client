@@ -14,9 +14,14 @@ const connect = function () {
   
   conn.on('connect', () => { // Send user name upon connecting to client
     conn.write("Name: JJW");
-  });
+    
+    // setInterval(() => {
+    //   conn.write("Move: up")}, 500   // Test to see how our snake moves
+    // );
 
-  conn.on('data', (data) => {
+  });
+  
+  conn.on('data', (data) => { // Prints the data receieved from the server
     console.log(data);
   });
 
