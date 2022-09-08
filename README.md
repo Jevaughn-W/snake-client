@@ -8,8 +8,10 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
+### Intialization
 !["Initialization of the server side of the appliation prior to connection to the client"](./img/Screen%20Shot%202022-09-08%20at%207.04.11%20PM.png)
 
+### Gameplay
 !["Application following the connection of the client to the server"](./img/Screen%20Shot%202022-09-08%20at%207.09.33%20PM.png)
 
 
@@ -20,5 +22,5 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Contorls
 - Press  `ctlr + c` while in the client terminal to exit the game
-- Movement ↑ ↓ ← →  w,s,a and d.
-- Messages z, x, c and v.
+- Movement ↑ ↓ ← →  w, s, a and d.
+- Canned messages z, x, c and v.
